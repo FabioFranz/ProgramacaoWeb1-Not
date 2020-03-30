@@ -1,0 +1,46 @@
+#tituloPrincipal {
+    margin: 3%;
+}
+
+#subtitulo {
+    margin: 3%;
+    color: grey;
+}
+
+table {
+    margin: 3%;
+}
+
+th.coluna {
+    border-style: solid;
+    border-width: 2px;
+    background-color: beige;
+    border-color: beige;
+    color: black;
+    border-style: solid;
+    border-width: 3px;
+}
+
+tr {
+    background-color: beige;
+    border-color: beige;
+    color: black;
+    border-style: solid;
+    border-width: 3px;
+}
+
+tr.odd {
+    background-color: steelblue;
+    border-color: steelblue;
+    color: black;
+    border-style: solid;
+    border-width: 3px;
+}
+
+tr.end {
+    background-color: red;
+    border-color: red;
+    color: white;
+    border-style: solid;
+    border-width: 3px;    
+}
