@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <title>Login</title>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.0/css/bootstrap.min.css">
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.16.0/umd/popper.min.js"></script>
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.0/js/bootstrap.min.js"></script>
+  <style>
+  .img {
+    height: 200px;
+    background: #aaa;
+  }
+  </style>
+</head>
+<body class="bg-dark">
+    <main class="container bg-secondary col-sm-4 align-center jumbotron vertical-center" style="margin-top:30px; border-width: 3px; border-radius: 50px; border-style: solid; border-color: black;">
+        <div class="row">
+          <div class="col-4"></div>
+          <div class="col-4 align-center text-center text-white">
+            <h2>Login</h2>
+          </div>
+          <div class="col-4"></div>
+        </div>
+        <form action="main.html" class="needs-validation text-white" id="login" method="POST">
+            <br>
+            <div class="row">
+                <div class="col-3"></div>
+                <div class="col-6">
+                    <label for="usuario"><b>Usuario:</b></label>
+                    <input type="text" class="form-control" style="border-width: 2px; border-radius: 5px; border-style: solid; border-color: black;" id="usuario" placeholder="Usuario" name="usuario" required>
+                </div>
+                <div class="col-3"></div>
+            </div>
+            <br>
+            <div class="row">
+                <div class="col-3"></div>
+                <div class="col-6">
+                    <label for="senha"><b>Senha:</b></label>
+                    <input type="password" class="form-control" style="border-width: 2px; border-radius: 5px; border-style: solid; border-color: black;" id="senha" placeholder="Senha" name="senha" required>
+                </div>
+                <div class="col-3"></div>
+            </div>
+            <br>
+            <div class="row">
+                <div class="col-4"></div>
+                <button type="submit" class="col-4 btn text-white" style="background-color: orange; border-width: 2px; border-radius: 15px; border-style: solid; border-color: black;"><b>Entrar</b></button>
+                <div class="col-4"></div>
+            </div>
+        </form>
+        <br>
+        <div class="row">
+            <div class="col-sm-3"></div>
+            <div class="col-sm-6 align-center text-center">
+                <a class="text-white" href="#"><b>Esqueci minha senha</b></a>
+            </div>
+            <div class="col-sm-3"></div>
+        </div>
+    </main>
+</body>
+</html>
